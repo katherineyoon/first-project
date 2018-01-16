@@ -1,0 +1,279 @@
+@font-face {
+font-family: Helvetica;
+src: url(fonts/HelveticaLTStd-Bold.otf);
+}
+@font-family{
+    font-family:Helvetica-reg;
+    src: url(fonts/HelveticaLTStd-Roman.otf);
+}
+@font-face{
+    font-family: Times-italic;
+    src: url(fonts/TimesLTStd-Italic.otf);
+}
+@font-face{
+  font-family: Times;
+  src: url(fonts/TimesLTStd-Roman.otf);
+}
+
+body {
+  background-color: #FFF;
+  margin: 0 auto;
+}   
+
+h1 {
+  color: #000;
+  font-family: Times, serif;
+  font-size: 140px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+.risdworks{
+    transform: rotate(90deg);
+      color: #000;
+  font-family: Times, serif;
+  font-size: 140px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+    z-index: 2;
+    text-align: right;
+  width:184vw;
+  position: absolute;
+  top: -160px;
+}
+.hellomain{
+    display: flex;
+    justify-content: left;
+z-index: 10;
+}
+.top{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: left;
+    margin: 11vw;
+     color: #000;
+  font-family: Times-italic, serif;
+  font-size: 80px;
+    color:#FF9966;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+    z-index: auto
+}
+.top:hover{
+    font-size:0;
+}
+.top:hover:after{
+    content: attr(data-hover);
+        color: #666565;
+  font-family: 'Times', serif;
+  font-size: 16px;
+  text-align: left;        
+}
+
+.feature{
+    margin: 32vw;
+    font-family: Helvetica-reg; sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    margin-top: -43vh;
+}
+.band{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 2em 0;
+    margin: 7px 0;
+}
+h2 {
+  color: #333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 auto 20px auto;
+}
+
+h3 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+h4 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase
+}
+
+.line{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin: 20px 20px;
+}
+
+
+footer {
+  background-color: #000;
+  text-align: center;
+}
+
+=======
+
+
+.headerbox{
+  top:0;
+  left:0;
+  height:20vh;
+  background-color:white;
+  width:100vw;
+  position:fixed;
+  z-index: 5;
+}
+
+
+.box-item{
+    display:inline-block;
+    text-align: left;
+  color: #000;
+  font-size: 35px;
+  font-family: Helvetica;
+    font-weight: 200;
+      line-height: 42px;
+      padding-top: 50px;
+    margin-left:150px;
+    
+}
+
+.box-item:hover{
+    opacity:0;
+}
+
+.logo-image{
+  position:fixed;
+    width:150px;
+    left:140px;
+  top:0;
+    opacity:100;
+}
+
+header {
+    display:inline-block;
+    width:50vw;
+}
+#head1 {
+  margin: 30px auto;
+  margin-top:-90px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+ .firsthead{
+  color: #000;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 95px;
+}
+
+.firsthead:hover{
+  color:#FF4500;
+}
+
+#second{
+display:inline-block;
+    width:20vw;
+  margin: 30px auto;
+  margin-left:-50px;
+  margin-top:-110px;
+  padding:0 15px;
+  text-align:right;
+}
+
+#login{
+  color: #000;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 10px;
+  font-weight: 200;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 95px;
+}
+
+#login:hover{
+  color:#FF4500;
+}
+
+.infobox{
+    width:270px;
+    height:400px;
+    display:block;
+    position:absolute;
+   background-color: #fff;
+    opacity: 0.6;
+    bottom:-60px;
+    right:50px;
+    z-index:20;
+}
+
+/*main box*/
+.mainbox{
+  width:100vw;
+  z-index:1;
+}
+.welcome {
+  text-align: right;
+    width: 97vw;
+  position: absolute;
+  top: 90px;
+}
+
+/*.stripbox{*/
+    width:100vw;
+    height:100px;
+    display:block;
+    position:absolute;
+    background-color:#FF9966;
+    bottom:120px;
+    opacity: 2;
+
+}
+.question {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.answer {
+  border: 1px solid #466995;
+  margin: 20px;
+  display: inline-block;
+  height: 150px;
+  width: 200px;
+
+}
+
+.answer:hover {
+  background: #C0D6DF;
+  color: #FFF;
+}
+
+footer{
+  height: 100px;
+}
+
+ 

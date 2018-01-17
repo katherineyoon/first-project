@@ -28,37 +28,184 @@ h1 {
   letter-spacing: 0.5px;
 }
 
+
+h3 {
+  color: #000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+    padding:10px;
+}
+
+/*
+h4 {
+  color: #466995;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+margin-left: 82vw;
+    margin-top: -60vh;
+  text-transform: uppercase
+}
+*/
+
+footer {
+  background-color: #000;
+    margin-top: 35vh;
+  text-align: center;
+}
+
+/*=======*/
+
+.headerbox{
+  top:0;
+  left:0;
+  height:14vh;
+    background:white;
+  position:fixed;
+    z-index:5;
+    width:100vw;
+    display:inline-flex;
+    padding-top:50px;
+}
+
+
+.box-item{
+    display:inline-block;
+    background-color:white;
+    text-align: left;
+    color: #000;
+    font-size: 35px;
+    font-family: Helvetica;
+    font-weight: 200;
+    line-height: 42px;
+    margin-left:150px;
+}
+
+/*
+.box-item:hover{
+    opacity:0;
+}
+*/
+
+
+img.logo-image{
+    width:120px;
+    position:absolute;
+    left:150px;
+    background-size:contain;
+    top:30px;
+    opacity:0;
+    z-index:-1;
+}
+
+#head1, #second{
+    color: #000;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    display:inline-block;
+    list-style:none;
+    margin-top:50px;
+}
+/*
+  margin: 30px auto;
+    display:inline-block;
+  padding: 0 20px;
+  text-align: center;
+*/
+#head1{
+    width:40vw;
+    padding-left:150px;
+
+    display:inline-block;
+}
+
+.firsthead{
+    font-size: 16px;
+    width: 95px;
+    text-align: center;
+    display:inline-block;
+}
+
+.firsthead:hover{
+  color:#FF4500;
+}
+
+#second{
+    width:20vw;
+    text-align:right;
+}
+
+#login{
+    font-size:10px;
+    width: 95px;
+    text-align: center;
+    display:inline-block;
+}
+
+#login:hover{
+  color:#FF4500;
+}
+
+/*
+.infobox{
+    width:270px;
+    height:400px;
+    display:block;
+    position:absolute;
+   background-color: #fff;
+    opacity: 0.6;
+    bottom:-60px;
+    right:50px;
+}
+*/
+
+/*main box*/
+.mainbox{
+  width:100vw;
+  z-index:1;
+}
+/*welcome background*/
+.welcome {
+  text-align: right;
+  position: absolute;
+  top: 90px;
+    right:10vw;
+    display:inline-block;
+}
+
 .risdworks{
     transform: rotate(90deg);
-      color: #000;
+      color: #FF9966;
   font-family: Times, serif;
-  font-size: 140px;
+  font-size: 130px;
   font-weight: 300;
   letter-spacing: 0.5px;
     z-index: 2;
     text-align: right;
-  width:184vw;
   position: absolute;
-  top: -160px;
+  top: 100vh;
+    right:-15vw;
+    display:inline-block;
 }
-.hellomain{
-    display: flex;
-    justify-content: left;
-z-index: 10;
-}
+
 .top{
     width: 200px;
     height: 200px;
-    display: flex;
     align-items: left;
-    margin: 11vw;
-     color: #000;
   font-family: Times-italic, serif;
-  font-size: 80px;
+  font-size: 90px;
     color:#FF9966;
   font-weight: 300;
   letter-spacing: 0.5px;
-    z-index: auto
+    display:inline-block;
+    padding-left:150px;
+    padding-top:210px;
+    
 }
 .top:hover{
     font-size:0;
@@ -72,208 +219,152 @@ z-index: 10;
 }
 
 .feature{
-    margin: 32vw;
-    font-family: Helvetica-reg; sans-serif;
-    font-size: 20px;
-    letter-spacing: 0.5px;
-    margin-top: -43vh;
-}
-.band{
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 2em 0;
-    margin: 7px 0;
-}
-h2 {
-  color: #333;
-  font-family: 'Varela Round', sans-serif;
-  font-size: 26px;
-  font-weight: 100;
-  margin: 0 auto 20px auto;
-}
-
-h3 {
-  color: #466995;
-  font-family: 'Oswald', sans-serif;
-  font-size: 18px;
-  text-align: center;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 30px;
-}
-
-h4 {
-  color: #466995;
-  font-family: 'Oswald', sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-align: center;
-  text-transform: uppercase
-}
-
-.line{
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-    margin: 20px 20px;
-}
-
-
-footer {
-  background-color: #000;
-  text-align: center;
-}
-
-=======
-
-
-.headerbox{
-  top:0;
-  left:0;
-  height:20vh;
-  background-color:white;
-  width:100vw;
-  position:fixed;
-  z-index: 5;
-}
-
-
-.box-item{
     display:inline-block;
-    text-align: left;
-  color: #000;
-  font-size: 35px;
-  font-family: Helvetica;
-    font-weight: 200;
-      line-height: 42px;
-      padding-top: 50px;
     margin-left:150px;
+    font-family: Helvetica-reg, sans-serif;
+    font-size: 18px;
+    color: #6B6B6B;
+    width: 70vw;
+    letter-spacing: 0.7px;
+    padding-bottom: 5px;
+    border-bottom:1px solid #ccc;
+}
+.bg{
+    color:#ADACAC;
+}
+.bg:hover{
+  color:#FF4500;
+}
+
+.img1{
+    position: relative;
+    display: inline-block;
+    height:300px;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 30px;
+    background-size:contain;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+    .img1:hover{
+    opacity: 0.3;
+}
+/*
+    .text{
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 0.7px;
+    color:#FF9966;
+    font-size: 14px;
+    padding: 16px 32px;
+}
+*/
+
+.img2{
+    display: inline-block;
+    height:300px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-size:contain;
+     transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+
+}
+
+    .img2:hover{
+    opacity: 0.3;
+        
+}
     
+.img3{
+    display: inline-block;
+    height:280px;
+    width: 280px;
+    margin-left: 55px;
+    margin-top: 30px;
+    background-size:contain;
+     transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
 }
 
-.box-item:hover{
-    opacity:0;
+   .img3:hover{
+    opacity: 0.3;
+}
+    
+.img4{
+    display: inline-block;
+    height:300px;
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-size:contain;
+}
+.img5{
+     display: inline-block;
+    height:300px;
+    width: 500px;
+    margin-left: 2px;
+    margin-top: 40px;
+    background-size:contain;
 }
 
-.logo-image{
-  position:fixed;
-    width:150px;
-    left:140px;
-  top:0;
-    opacity:100;
-}
-
-header {
+.quote{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+  font-family: Times-italic, serif;
+  font-size: 50px;
+    color:#FF9966;
+  font-weight: 200;
+  letter-spacing: 0.5px;
     display:inline-block;
-    width:50vw;
+    padding-left:150px;
+    padding-top:100px;
 }
-#head1 {
-  margin: 30px auto;
-  margin-top:-90px;
-  padding: 0 20px;
-  text-align: center;
-}
-
- .firsthead{
-  color: #000;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 16px;
-  font-weight: 200;
-  text-transform: uppercase;
-  display: inline-block;
-  width: 95px;
-}
-
-.firsthead:hover{
-  color:#FF4500;
-}
-
-#second{
-display:inline-block;
-    width:20vw;
-  margin: 30px auto;
-  margin-left:-50px;
-  margin-top:-110px;
-  padding:0 15px;
-  text-align:right;
-}
-
-#login{
-  color: #000;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 10px;
-  font-weight: 200;
-  text-transform: uppercase;
-  display: inline-block;
-  width: 95px;
-}
-
-#login:hover{
-  color:#FF4500;
-}
-
-.infobox{
-    width:270px;
-    height:400px;
-    display:block;
-    position:absolute;
-   background-color: #fff;
-    opacity: 0.6;
-    bottom:-60px;
-    right:50px;
-    z-index:20;
-}
-
-/*main box*/
-.mainbox{
-  width:100vw;
-  z-index:1;
-}
-.welcome {
-  text-align: right;
-    width: 97vw;
-  position: absolute;
-  top: 90px;
-}
-
-/*.stripbox{*/
-    width:100vw;
-    height:100px;
-    display:block;
-    position:absolute;
-    background-color:#FF9966;
-    bottom:120px;
-    opacity: 2;
-
-}
-.question {
-  text-align: center;
-  position: relative;
-  top: 40px;
+.img6{
+    display: inline-block;
+    height:524px;
+    width: 643px;
+    margin-left: 10vw;
+    margin-top: 55px;
+    background-size:contain;
 }
 
 .answer {
-  border: 1px solid #466995;
-  margin: 20px;
   display: inline-block;
-  height: 150px;
-  width: 200px;
+  border: 1px solid #FF9966;
+  margin: 20px;
+  height: 100px;
+  width: 150px;
+float: right;
+    margin-right: 50px;
+
 
 }
 
 .answer:hover {
-  background: #C0D6DF;
+  background: #fff;
   color: #FFF;
 }
-
+.copyright{
+    color:#fff;
+    font-family: Helv etica, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    z-index: 10;
+    float:left;
+    margin-left: 10vw;
+    margin-top: 7vh;
+    
+}
 footer{
   height: 100px;
+    margin-top: 7vh;
 }
 
  
